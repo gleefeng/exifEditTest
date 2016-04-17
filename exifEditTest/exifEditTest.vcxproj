@@ -10,6 +10,14 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\exifEdit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\exifEdit.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\PropertyEdit.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FF883D1D-4F15-416E-81C6-5006EED29CCB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -76,13 +84,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="exifEdit.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="exifEdit.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
