@@ -368,11 +368,8 @@ HRESULT GetPropertyValueForArray(PCWSTR pszFilename, PCWSTR pszCanonicalName,cha
 				}
 				PropVariantClear(&propvarValue);
 			}
-			return hr;
-
-
-
-			hr = PrintProperty(pps, key, pszCanonicalName);
+			//return hr;
+			//hr = PrintProperty(pps, key, pszCanonicalName);
 			pps->Release();
 		}
 		else
